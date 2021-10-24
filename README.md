@@ -1,1 +1,71 @@
-# 1
+<!doctype html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+<title>Domyślne :DEFAULT - Selektory pseudoklas - Kurs CSS dla zielonych</title>
+<style>
+input:default, option:default, button:default { margin-left: 30px }
+</style>
+</head>
+<body>
+<form action="?">
+	<fieldset>
+	<input type="radio" checked name="pole_opcji" class="przyklad_domyslne">
+	<input type="radio" name="pole_opcji" class="przyklad_domyslne">
+	</fieldset>
+	<select size="3">
+	<option selected class="przyklad_domyslne">Opcja 1</option>
+	<option class="przyklad_domyslne">Opcja 2</option>
+	<option class="przyklad_domyslne">Opcja 3</option>
+	</select>
+	<div>
+	<button type="submit">Wyślij</button>
+	<button type="reset">Wyczyść</button>
+	</div>
+</form>
+ddsfsd
+
+<div>
+	<a href="http://how2html.pl">
+	  <img src="logo.png" alt="logo how2html">
+	</a>
+	<ul>
+	  <li><a href="#">Strona Główna</a></li>
+	  <li><a href="lekcja-1">Lekcja 1</a></li>
+	  <li><a href="lekcja-2">Lekcja 2</a></li>
+	</ul>
+  </div>
+<h1>ddddd</h1>
+<div class="view">  
+     <img src="image.gif" />  
+     <div class="mask">  
+     <h2>Title</h2>  
+     <p>Your Text</p>  
+         <a href="#" class="info">Read More</a>  
+     </div>  
+</div>
+
+
+
+<div class="view">  
+     <img src="image.gif" />  
+     <div class="mask">  
+     <h2>Title</h2>  
+     <p>Your Text</p>  
+         <a href="#" class="info">Read More</a>  
+     </div>  
+</div>  
+
+<div class="view view-second">
+	<img src="images5.jpg" />
+	<div class="mask"></div>
+	<div class="content">
+		<h2>Hover Style #2</h2>
+		<p>Some description</p>
+		<a href="#" class="info">Read More</a>
+	</div>
+</div>
+
+</body>
+</html>
